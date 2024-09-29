@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+}
+
+/* Serviços Section */
+
+#servicos h4 {
+    margin: 10px 0 5px;
+}
+
+.service-icon img,
+.card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-icon img:hover,
+.card img:hover {
+    transform: scale(1.1); /* Aumenta a imagem levemente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
+}
